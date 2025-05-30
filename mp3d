@@ -1,0 +1,2 @@
+# extract mp3 from links
+yt-dlp -x --audio-format mp3 -P '~/Music' $1
