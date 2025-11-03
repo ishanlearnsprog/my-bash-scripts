@@ -1,2 +1,2 @@
 # extract mp3 from links
-yt-dlp -x --audio-format mp3 -P '~/Music' $1
+yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail -P '~/Music' $1
